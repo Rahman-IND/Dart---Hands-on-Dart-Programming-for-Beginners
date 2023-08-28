@@ -21,7 +21,7 @@ void main() {
   print('The sum is : ${varSum}');
   print('The Subtraction is : ${varSub}');
   print('The Multiplication is : ${varMul}');
-  print('The Divison is : ${varDiv1}');           //with decimal values
-  print('The Divison is : ${varDiv2}');           //without decimal values
+  print('The Division is : ${varDiv1}');           //with decimal values
+  print('The Division is : ${varDiv2}');           //without decimal values
   print('The Modulo is : ${varMod}');             //to get remainder
 }
