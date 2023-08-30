@@ -7,7 +7,7 @@ void main() {
   result = (varbool1 && varbool2);
   print('when varbool1 = true && varbool2 = true then result is :' +result.toString());
   result = (varbool1 || varbool2);
-  print('when varbool1 = true && varbool2 = true then result is :' +result.toString());
+  print('when varbool1 = true || varbool2 = true then result is :' +result.toString());
   result = !(varbool1 && varbool2);
-  print('when varbool1 = true && varbool2 = true then result is :' +result.toString());
+  print('when varbool1 = true NOT && varbool2 = true then result is :' +result.toString());
 }
