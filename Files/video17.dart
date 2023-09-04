@@ -23,5 +23,14 @@ void main() {
   print('The isNegative property is ${varnum.isNegative}');
   print('The Sign property is ${varnum.sign}');
   print('The isEven property is ${varnum.isEven}');
-  print('The isOdd property is ${varnum.isOdd}');
-}
+  print('The isOdd property is ${varnum.isOdd}\n');
+
+  print('The absolute method :${vard.abs()}');
+  print('The ceil method :${vard.ceil()}');
+  print('The Floor method :${vard.floor()}');
+  print('The Compareto method :${vard.compareTo(56.66)}');
+  print('The remainder method :${vard.remainder(2)}');
+  print('The round method :${vard.round()}');
+  print('The toInt method :${vard.toInt()}');
+  print('The truncate method :${vard.truncate()}');
+  }
