@@ -22,6 +22,6 @@ void main() {
   print("The values of the List are : ");
   print(Weekdays);
   print('The length of the List is ' + Weekdays.length.toString());
-  // print('The first value of the list is : '+ Weekdays.first);
-  // print('The first value of the list is : ' + Weekdays.last);
+  print('The first value of the list is : '+ Weekdays.first!);
+  print('The last value of the list is : ' + Weekdays.last!);
 }
