@@ -1,23 +1,26 @@
+/*Topic : Type Casting in Dart
+take user input in String data type and store in Int data type */
+
 import 'dart:io';
 
 void main() {
-  String? empfname, emplname, empAge, empSal;
+  String? fname, lname, empAge, empSal;
   int empAgeint;
   double empSaldou;
 
-  print('Enter your first name:');
-  empfname = stdin.readLineSync();
-  print('Enter your last name:');
-  emplname = stdin.readLineSync();
-  print('Enter your Age:');
-  empAge = stdin.readLineSync();
-  empAgeint = int.parse(empAge!);
-  print('Enter your salary:');
-  empSal = stdin.readLineSync();
-  empSaldou = double.parse(empSal!);
+  print("Enter your First name : ");
+  fname = stdin.readLineSync();
+  print("Enter ypur last name : ");
+  lname = stdin.readLineSync();
+  print("Enter your age : ");
+  empAge = stdin.readLineSync();          //here input is Stored in String data type.
+  empAgeint = int.parse(empAge!);         //here same String data is converted into Integer data type.
+  print("Enter your Salary : ");
+  empSal = stdin.readLineSync();          //here input is Stored in String data type.
+  empSaldou = double.parse(empSal!);      //here same String data is converted into double(decimal) data type.
 
-  print("Your First name is :${empfname}");
-  print("Your Last name is :${emplname}");
-  print("Your Age is :${empAgeint}");
-  print("Your Salary is :${empSaldou}");
+  print("Your first name is : ${fname}");
+  print("Your Last name is : ${lname}");
+  print("Your Age is : ${empAgeint}");
+  print("Your Salary is : ${empSaldou}");
 }
