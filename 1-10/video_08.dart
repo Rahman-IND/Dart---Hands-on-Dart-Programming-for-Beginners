@@ -1,8 +1,6 @@
 /*Topic : Arithmetic operators and without declaring 
 any extra variable to store the result */
 
-import 'dart:io';
-
 void main() {
   var num1, num2;
   num1 = 50;
