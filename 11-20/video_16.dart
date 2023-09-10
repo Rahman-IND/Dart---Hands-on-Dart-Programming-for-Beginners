@@ -1,14 +1,14 @@
-//Topic: Dart constants
+/*Topic : Dart constants (Const,final variable) */
 
 void main() {
-  final varint1 = 50;
-  final varint2 = 100;
+  final num1 = 100;
+  const num2 = 50;
   const pi = 3.14;
   int radius = 55;
   double result = pi * radius * radius;
 
-  print('The value of final variable varint1 is ${varint1}');
-  print('The value of final variable varint2 is ${varint2}');
-  print('The value of constant variable pi is ${pi}');
-  print('The value of result is ${result}');
+  print("The value of num1 is : ${num1} and num2 is : ${num2}");
+  print("The value of pi is : ${pi}");
+  print("The value of radiu is : " + radius.toString());
+  print("The result is : ${result}");
 }
