@@ -9,6 +9,6 @@ void main() {
 
   print("The value of num1 is : ${num1} and num2 is : ${num2}");
   print("The value of pi is : ${pi}");
-  print("The value of radiu is : " + radius.toString());
+  print("The value of radius is : " + radius.toString());
   print("The result is : ${result}");
 }
