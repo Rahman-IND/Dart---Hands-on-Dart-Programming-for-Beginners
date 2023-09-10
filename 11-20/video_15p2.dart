@@ -1,4 +1,4 @@
-//Topic: Conditional Operators Or Ternary operator (?)
+/*Topic: Conditional Operators Or Ternary operator (?)*/
 
 void main() {
   int num1 = 40;
