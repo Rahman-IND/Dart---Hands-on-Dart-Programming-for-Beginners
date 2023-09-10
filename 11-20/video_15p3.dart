@@ -1,19 +1,17 @@
-//Topic: Conditional Operators Or Ternary operator (?) with user input.
-
+/*Topic: Conditional Operators Or Ternary operator (?) with user input.*/
 import 'dart:io';
 
 void main() {
-  var var1, var2, result;
-  int num1, num2;
+  var num1, num2, result;
+  int intnum1, intnum2;
 
-  print("Enter the first value: ");
-  var1 = stdin.readLineSync();
-  num1 = int.parse(var1);
+  print("Enter value of first number : ");
+  num1 = stdin.readLineSync();
+  intnum1 = int.parse(num1);
+  print("Enter value of second number : ");
+  num2 = stdin.readLineSync();
+  intnum2 = int.parse(num2);
 
-  print("Enter the first value: ");
-  var2 = stdin.readLineSync();
-  num2 = int.parse(var2);
-
-  result = (num1 > num2) ? "HigerNumber" : "SmallerNumber";
+  result = (intnum1 > intnum2) ? "Higher Number" : "Smaller Number";
   print("The result is : ${result}");
 }
